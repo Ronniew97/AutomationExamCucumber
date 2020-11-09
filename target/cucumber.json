@@ -3,14 +3,14 @@
     "line": 1,
     "elements": [
       {
-        "line": 4,
+        "line": 10,
         "name": "A valid user should be able to change the backbround color",
         "description": "",
         "id": "valid-user-should-be-able-to-change-the-background-color-in-the-techfios-test-page;a-valid-user-should-be-able-to-change-the-backbround-color",
         "after": [
           {
             "result": {
-              "duration": 667750900,
+              "duration": 705548400,
               "status": "passed"
             },
             "match": {
@@ -19,7 +19,7 @@
           },
           {
             "result": {
-              "duration": 126400,
+              "duration": 136000,
               "status": "passed"
             },
             "match": {
@@ -32,45 +32,45 @@
         "steps": [
           {
             "result": {
-              "duration": 8043879200,
+              "duration": 8640783400,
               "status": "passed"
             },
-            "line": 5,
-            "name": "The background of techfios test page is white",
+            "line": 11,
+            "name": "The background of techfios test page is blue",
             "match": {
-              "location": "ToDoListSteps.the_background_of_techfios_test_page_is_white()"
+              "location": "ToDoListStep2.the_background_of_techfios_test_page_is_blue()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 203235300,
+              "duration": 183799600,
               "status": "passed"
             },
-            "line": 6,
-            "name": "the user clicks Set SkyBlue Background",
+            "line": 12,
+            "name": "the user clicks Set White Background",
             "match": {
-              "location": "ToDoListSteps.the_user_clicks_Set_SkyBlue_Background()"
+              "location": "ToDoListStep2.the_user_clicks_Set_White_Background()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 512745700,
+              "duration": 466703600,
               "status": "passed"
             },
-            "line": 7,
-            "name": "the background should change to SkyBlue",
+            "line": 13,
+            "name": "the background should change to White",
             "match": {
-              "location": "ToDoListSteps.the_background_should_change_to_SkyBlue()"
+              "location": "ToDoListStep2.the_background_should_change_to_White()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 3,
-            "name": "@Scenario1"
+            "line": 9,
+            "name": "@Scenario2"
           }
         ]
       }
