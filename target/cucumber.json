@@ -1,16 +1,16 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 10,
+        "line": 5,
         "name": "A valid user should be able to change the backbround color",
         "description": "",
         "id": "valid-user-should-be-able-to-change-the-background-color-in-the-techfios-test-page;a-valid-user-should-be-able-to-change-the-backbround-color",
         "after": [
           {
             "result": {
-              "duration": 705548400,
+              "duration": 724501200,
               "status": "passed"
             },
             "match": {
@@ -19,7 +19,7 @@
           },
           {
             "result": {
-              "duration": 136000,
+              "duration": 108200,
               "status": "passed"
             },
             "match": {
@@ -32,10 +32,82 @@
         "steps": [
           {
             "result": {
-              "duration": 8640783400,
+              "duration": 7738686300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 6,
+            "name": "The background of techfios test page is white",
+            "match": {
+              "location": "ToDoListSteps.the_background_of_techfios_test_page_is_white()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243390800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks Set SkyBlue Background",
+            "match": {
+              "location": "ToDoListSteps.the_user_clicks_Set_SkyBlue_Background()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 595658100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background should change to SkyBlue",
+            "match": {
+              "location": "ToDoListSteps.the_background_should_change_to_SkyBlue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "A valid user should be able to change the backbround color",
+        "description": "",
+        "id": "valid-user-should-be-able-to-change-the-background-color-in-the-techfios-test-page;a-valid-user-should-be-able-to-change-the-backbround-color",
+        "after": [
+          {
+            "result": {
+              "duration": 727905000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ToDoListStep2.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 98200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ToDoListSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3281276700,
+              "status": "passed"
+            },
+            "line": 12,
             "name": "The background of techfios test page is blue",
             "match": {
               "location": "ToDoListStep2.the_background_of_techfios_test_page_is_blue()"
@@ -44,10 +116,10 @@
           },
           {
             "result": {
-              "duration": 183799600,
+              "duration": 223779500,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "the user clicks Set White Background",
             "match": {
               "location": "ToDoListStep2.the_user_clicks_Set_White_Background()"
@@ -56,10 +128,10 @@
           },
           {
             "result": {
-              "duration": 466703600,
+              "duration": 520850000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "the background should change to White",
             "match": {
               "location": "ToDoListStep2.the_background_should_change_to_White()"
@@ -69,7 +141,7 @@
         ],
         "tags": [
           {
-            "line": 9,
+            "line": 10,
             "name": "@Scenario2"
           }
         ]
@@ -79,6 +151,12 @@
     "description": "",
     "id": "valid-user-should-be-able-to-change-the-background-color-in-the-techfios-test-page",
     "keyword": "Feature",
-    "uri": "features/todolist.feature"
+    "uri": "features/todolist.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@EndToEnd"
+      }
+    ]
   }
 ]

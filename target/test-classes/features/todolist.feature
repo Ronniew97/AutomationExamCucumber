@@ -1,3 +1,4 @@
+@EndToEnd
 Feature: Valid user should be able to change the background color in the techfios test page
 
 @Scenario1
